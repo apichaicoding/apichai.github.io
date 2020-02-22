@@ -565,7 +565,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: block;
   width: 120px;
   height: 3px;
-  background: #ddd;
+  /* background: #ddd; */
   bottom: 1px;
   left: calc(50% - 60px);
 }
@@ -576,7 +576,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: block;
   width: 40px;
   height: 5px;
-  background: #ffaa00;
+  /* background: #ffaa00; */
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -1507,6 +1507,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 30px;
 }
 
+#footer .footer-top .footer-info img {
+  width: 20em;
+  margin-bottom: 30px;
+}
+
 #footer .footer-top .footer-info h3 {
   font-size: 34px;
   margin: 0 0 20px 0;
@@ -1524,22 +1529,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #footer .footer-top .footer-info p {
   font-size: 14px;
-  line-height: 24px;
-  width: 370px;
+  /* line-height: 24px;
+  width: 370px; */
   margin-bottom: 0;
   font-family: "Montserrat", sans-serif;
   color: #eee;
-}
-
-#P1 {
-  font-size: 14px;
-  line-height: 24px;
-  width: 370px;
-  margin-bottom: 0;
-  font-family: "Montserrat", sans-serif;
-  color: #eee;
-  text-indent: 2.5rem;
-  text-align: justify;
 }
 
 #footer .footer-top .social-links a {
@@ -1550,6 +1544,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   line-height: 1;
   padding: 8px 0;
   margin-right: 20px;
+  margin-top: 20px;
   border-radius: 50%;
   text-align: center;
   width: 42px;
