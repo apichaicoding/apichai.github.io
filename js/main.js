@@ -9,7 +9,7 @@
       });
     }
   });
-
+  
   // Back to top button
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
@@ -20,6 +20,19 @@
   });
   $('.back-to-top').click(function(){
     $('html, body').animate({scrollTop : 0},1500, 'easeInOutExpo');
+    return false;
+  });
+
+  // Back to top Down
+  $(window).scroll(function() {
+    if ($(this).scrollTop() > 100) {
+      $('.back-to-Down').fadeIn('slow');
+    } else {
+      $('.back-to-Down').fadeOut('slow');
+    }
+  });
+  $('.back-to-Down').click(function(){
+    $('html, body').animate({scrollTop : 20000},1500, 'easeInOutExpo');
     return false;
   });
 

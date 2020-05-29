@@ -67,6 +67,28 @@ h6 {
   color: #000;
 }
 
+/* Back to Down button */
+.back-to-Down {
+  position: fixed;
+  display: none;
+  background: #ffaa00;
+  color: #fff;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  line-height: 1;
+  font-size: 16px;
+  border-radius: 50%;
+  right: 15px;
+  bottom: 15px;
+  transition: background 0.5s;
+  z-index: 11;
+}
+.back-to-Down i {
+  padding-top: 12px;
+  color: #000;
+}
+
 /* Prelaoder */
 
 #preloader {
@@ -1709,6 +1731,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 
   .back-to-top {
+    bottom: 15px;
+  }
+
+  .back-to-Down {
     bottom: 15px;
   }
 
